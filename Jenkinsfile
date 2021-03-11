@@ -19,7 +19,7 @@ pipeline {
                 sh '''
                     echo "Displaying drive space"
                     df -h
-                ...
+                '''
             }
         }
     }
